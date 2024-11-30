@@ -5,13 +5,13 @@ public class Main {
         int initialBalance = 100;
 
         //Определение суммы зачисленной на баланс
-        int depositAmount = 1100;
+        int depositAmount = 2000;
 
         //Определение суммы, находящейся на счету
         int newBalance = depositAmount + initialBalance;
 
         //Опреление бонуса, который клиент получает за внесение суммы равной или более 1000 руб.
-        int bonusAmount = (depositAmount / 10 );
+        int bonusAmount = (depositAmount / 100 );
 
 //      Вывод информации с новым балансом, если сумма платежа менее 1000 рублей
 //      if (depositAmount < 1000) {
@@ -23,7 +23,7 @@ public class Main {
 
         System.out.println (depositAmount <= 1000?
                            ("На Вашем счету сейчас: " + newBalance + " рублей."):
-                           ("На Вашем счету сейчас: " + (depositAmount + bonusAmount) + " рублей."));
+                           ("На Вашем счету сейчас: " + (newBalance + bonusAmount) + " рублей."));
 
 
 
