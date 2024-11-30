@@ -19,7 +19,7 @@ public class Main {
 //
 //      Вывод информации с новым балансом, если сумма платежа равна или более 1000 руб.
 //      else if (depositAmount >= 1000) {
-//          System.out.println("На Вашем счету сейчас: " + (depositAmount + bonusAmount) + " рублей.");}
+//          System.out.println("На Вашем счету сейчас: " + (newBalance + bonusAmount) + " рублей.");}
 
         System.out.println (depositAmount <= 1000?
                            ("На Вашем счету сейчас: " + newBalance + " рублей."):
