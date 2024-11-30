@@ -5,7 +5,7 @@ public class Main {
         int initialBalance = 100;
 
         //Определение суммы зачисленной на баланс
-        int depositAmount = 2000;
+        int depositAmount = 1100;
 
         //Определение суммы, находящейся на счету
         int newBalance = depositAmount + initialBalance;
@@ -24,7 +24,6 @@ public class Main {
         System.out.println (depositAmount <= 1000?
                            ("На Вашем счету сейчас: " + newBalance + " рублей."):
                            ("На Вашем счету сейчас: " + (newBalance + bonusAmount) + " рублей."));
-
 
 
     }
